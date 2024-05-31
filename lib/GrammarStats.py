@@ -7,6 +7,11 @@ class GrammarStats:
   
     def check(self, text):
         # self.text = text    # Probably I don't need to have it here. Why?
+        # Don't need it because it's a local variable, which I am using only in this method.
+        # If I was using it anywhere else (e.g in percentage_good) I'd need to declare it
+        # in: __init__(self, text)
+        # self.text = text
+        # This way I'd need to declare 
 
         # Parameters:
         #   text: string
